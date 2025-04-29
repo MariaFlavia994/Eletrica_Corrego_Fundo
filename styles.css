@@ -89,7 +89,7 @@ header {
 }
 
 .carousel-container {
-    width: 100%;
+    width: auto;
     max-width: auto;
     margin: auto;
     position: relative;
@@ -144,17 +144,30 @@ input:checked + label {
   text-align: center;
   color: var(--vitrine_cor_titulo);
 }
-h2 {
+
+/*h2 {
   color: #2980b9;
   display: block;
   font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  unicode-bidi: isolate;
+  text-align: center;
+  margin-top: ;
+}*/
+
+.nossas-categorias {
+  padding: 40px 0 20px 0;
+  background-color: #f2f2f2;
+  text-align: center;
 }
+
+.nossas-categorias h2 {
+  font-size: 32px;
+  color: #2980b9;
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+
 
 
   

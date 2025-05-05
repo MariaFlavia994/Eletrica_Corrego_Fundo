@@ -8,6 +8,7 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #f4f4f4;
     padding-top: 80px; 
+    font-family: 'Poppins', sans-serif;
   }
   
 header {
@@ -49,7 +50,7 @@ header {
   .btn {
     font-size: 16px;
     color: white;
-    background: #3498db;
+    background: #043372;
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -145,13 +146,7 @@ input:checked + label {
   color: var(--vitrine_cor_titulo);
 }
 
-/*h2 {
-  color: #2980b9;
-  display: block;
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: ;
-}*/
+
 
 .nossas-categorias {
   padding: 40px 0 20px 0;
@@ -161,11 +156,32 @@ input:checked + label {
 
 .nossas-categorias h2 {
   font-size: 32px;
-  color: #2980b9;
+  color: #043372;
   display: block;
   font-size: 1.5em;
   margin-bottom: 0;
 }
+.Sobre h2{
+  color: #043372;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.Sobre p{
+  padding: 30px;
+  color: #043372;
+  line-height: 2;
+}
+
+footer{
+  background-color: #043372;
+  font-family:  'Poppins', sans-serif;
+  text-align: left;
+  padding: 20px;
+  color: white;
+}
+
+
 
 
 

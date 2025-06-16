@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     padding-top: 80px; 
     font-family: 'Poppins', sans-serif;
@@ -149,18 +149,16 @@ input:checked + label {
 
 
 .nossas-categorias {
-  padding: 40px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  /*padding: 40px 0 20px 0;
   background-color: #f2f2f2;
-  text-align: center;
+  text-align: center;*/
 }
 
-.nossas-categorias h2 {
-  font-size: 32px;
-  color: #043372;
-  display: block;
-  font-size: 1.5em;
-  margin-bottom: 0;
-}
+
 .Sobre h2{
   color: #043372;
   margin-top: 40px;
@@ -173,16 +171,92 @@ input:checked + label {
   line-height: 2;
 }
 
-footer{
+/*footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #043372;
   font-family:  'Poppins', sans-serif;
   text-align: left;
   padding: 20px;
   color: white;
+}*/
+
+.Título-Marcas h2{
+  color: #043372;
+  margin-top: 40px;
+  text-align: center;
 }
 
 
+.Logos {
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: center;  
+  gap: 20px;                
+  padding: 30px;
+  max-width: 800px;         
+  margin: 0 auto;           
+}
 
+.Marcas-Logo {
+  width: calc(33.33% - 20px);  
+  display: flex;
+  justify-content: center;
+}
+
+.Marcas-Logo img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.categorias-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.categorias-container h2 {
+  color: #043372;
+  font-family:  'Poppins', sans-serif;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.categorias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.categoria {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.categoria:hover {
+  transform: scale(1.05);
+}
+
+.categoria img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px; 
+}
+
+.categoria p {
+  font-family:  'Poppins', sans-serif;
+  margin-top: 10px;
+  color: #043372;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
 
 
 
